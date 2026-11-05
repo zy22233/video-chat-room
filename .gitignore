@@ -1,0 +1,46 @@
+# 构建产物
+build/
+build-*/
+*.o
+*.obj
+*.exe
+*.dll
+debug/
+release/
+
+# qmake / moc
+Makefile.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+.qmake.stash
+*.pro.user
+*.pro.user.*
+
+# 服务端二进制
+server/server
+
+# 发布包（含 Qt / FFmpeg 动态库，体积过大）
+meetingApp/
+
+# 依赖库
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.cache/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与本地配置
+*.log
+config.ini
